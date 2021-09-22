@@ -6,6 +6,6 @@ if [ "$EUID" -ne 0 ]
 fi
 apt update
 apt install -y curl git
-curl -sL https://deb.nodesource.com/setup_14.x | bash -
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
 apt -y install nodejs
 npm i -g pm2 nodemon
